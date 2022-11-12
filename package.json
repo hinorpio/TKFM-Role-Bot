@@ -1,0 +1,28 @@
+{
+  "name": "TKFM-Role-Bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hinorpio/TKFM-Role-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hinorpio/TKFM-Role-Bot/issues"
+  },
+  "homepage": "https://github.com/hinorpio/TKFM-Role-Bot#readme",
+  "dependencies": {
+    "discord-api-types": "^0.37.2",
+    "discord.js": "^14.2.0",
+    "dotenv": "^16.0.1",
+    "nodemon": "^2.0.19"
+  }
+}

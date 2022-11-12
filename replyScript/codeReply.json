@@ -1,0 +1,13 @@
+{
+    "UNKNOWN_ERROR": "...嗚嗚...看來要去找維修師先生看看(UNKNOWN_ERROR - 未知錯誤)",
+    "DELETE_MESSAGE_SUCCESS": "DELETE_MESSAGE_SUCCESS - 訊息刪除成功: 訊息ID：",
+    "STATUS_UPDATE_SUCCESS": "STATUS_UPDATE_SUCCESS - 狀態更新成功",
+    "CHANNEL_ERROR": "CHANNEL_ERROR - 頻道ID錯誤",
+    "PERMISSION_DENIED": "...嗚嗚...娜娜說不可以讓陌生人進來...不然娜娜就不給我糖吃了...對不起(PERMISSION_DENIED - 你沒有使用指令的權限)",
+    "PROGRESSORS_ROLE_CLAIMED": "那就拜託凱薩大人帶著露露離開吧。(PROGRESSORS_ROLE_CLAIMED - 成功取得身份組[攻略組])",
+    "PROGRESSORS_ROLE_REMOVED": "...嗚嗚...凱薩大人壞心眼。(PROGRESSORS_ROLE_REMOVED - 取消身份組成功[攻略組])",
+    "ADULT_ROLE_CLAIMED": "...嗚嗚...凱薩大人不要這樣看人家啦...噫！(逃離現埸)(ADULT_ROLE_CLAIMED - 成功取得身份組)",
+    "ADULT_ROLE_REMOVED": "(快速奪回)凱薩大人我先睡了晚安！(ADULT_ROLE_REMOVED - 取消身份組成功)",
+    "EMBED_ROLE_CLAIMED": "帕奈奈！人家準備好要來學南瓜魔法了！(EMBED_ROLE_CLAIMED - 成功取得身份組)",
+    "EMBED_ROLE_REMOVED": "...嗚嗚...帕奈奈不教人家了嗎？(EMBED_ROLE_REMOVED - 取消身份組成功)"
+}
