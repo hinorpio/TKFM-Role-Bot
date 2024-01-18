@@ -38,6 +38,7 @@ module.exports = {
                 });
             }
         } catch (error) {
+            util.appendToLogFile(error);
             util.showErrorReply(interaction, error)
         }
         

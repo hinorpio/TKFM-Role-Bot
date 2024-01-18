@@ -51,6 +51,7 @@ module.exports = {
                 await interaction.deleteReply()
             }
         } catch (error) {
+            util.appendToLogFile(error);
             util.showErrorReply(interaction, error)
         }
     }
