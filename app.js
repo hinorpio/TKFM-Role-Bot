@@ -55,7 +55,7 @@ function startBot(){
                     await command.execute(interaction, client);
                 } catch (error) {
                     if(error) console.log(error);
-                    // util.appendToLogFile(error);
+                    util.appendToLogFile(error);
                     util.showErrorReply(interaction, error)
                 }
             }
@@ -67,7 +67,7 @@ function startBot(){
                     await menu.execute(interaction, client);
                 } catch (error) {
                     if(error) console.log(error);
-                    // util.appendToLogFile(error);
+                    util.appendToLogFile(error);
                     util.showErrorReply(interaction, error)
                 }
             }
@@ -79,7 +79,7 @@ function startBot(){
                     await button.execute(interaction, client);
                 } catch (error) {
                     if(error) console.log(error);
-                    // util.appendToLogFile(error);
+                    util.appendToLogFile(error);
                     util.showErrorReply(interaction, error)
                 }
             }
@@ -89,7 +89,7 @@ function startBot(){
 
         client.login(process.env.TOKEN);
     }catch (error){
-        // util.appendToLogFile(error);
+        util.appendToLogFile(error);
         startBot()
     }
 
