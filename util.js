@@ -92,11 +92,11 @@ module.exports = {
         const logFilePath = path.join(logDirectoryPath, logFileName);
         const logMessage = `[${now.toISOString()}] Uncaught exception: ${error}\n`;
 
-        fs.appendFile(logFilePath, logMessage, { flag: 'a+' }, (err) => {
-            if (err) {
-                console.error('Failed to append to log file:', err);
-            }
-        });
+        // fs.appendFile(logFilePath, logMessage, { flag: 'a+' }, (err) => {
+        //     if (err) {
+        //         console.error('Failed to append to log file:', err);
+        //     }
+        // });
     }
     
 }
