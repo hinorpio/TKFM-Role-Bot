@@ -17,7 +17,7 @@ module.exports = {
             })
         } catch (error) {
             if(error) console.log(error);
-            util.appendToLogFile(error);
+            // util.appendToLogFile(error);
             util.showErrorReply(interaction, error)
         }
     }
